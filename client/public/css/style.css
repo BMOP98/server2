@@ -1,0 +1,71 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222; /* Fondo oscuro */
+}
+
+.login-title {
+    margin-bottom: 20px;
+    color: #fff; /* Texto blanco */
+  }
+
+.title {
+  margin-bottom: 20px;
+  color: #fff; /* Texto blanco */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff; /* Texto blanco */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #555; /* Texto oscuro */
+  background-color: #fff; /* Fondo blanco */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff; /* Texto blanco */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+  }
+  .button-group button {
+      flex: 1;
+      /* Los botones ocuparán el mismo espacio */
+      margin: 0 5px;
+      /* Añade un espacio de 5px entre los botones */
+      padding: 8px 15px;
+      /* Ajusta el relleno del botón */
+      font-size: 14px;
+      /* Reduce el tamaño de la fuente */
+  }
+
+  
