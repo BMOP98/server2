@@ -6,8 +6,7 @@
   "scripts": {
     "start": "npm-run-all --parallel init-client init-server",
     "init-client": "cd client && npm run start && cd ..",
-    "init-server": "cd server  &&  npm run start && cd ..",
-    "heroku-postbuild": "npm run install-client"
+    "init-server": "cd server  &&  npm run start && cd .."
   },
   "keywords": [],
   "author": "",
