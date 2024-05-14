@@ -26,7 +26,7 @@ class Login extends Component {
     const a = await fetch("http://localhost:5000/registro/" + username + "/" + password)
     const data_res = await a.json();
     if(data_res.length === 0){
-      alert("Correo o Contraseña Incorrectos");
+      alert("Credenciales Incorrectas");
       
     }else{
       sessionStorage.setItem("item_key", data_res.usuario._id)
